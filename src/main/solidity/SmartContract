@@ -1,0 +1,19 @@
+pragma solidity ^0.5.0;
+
+contract TestFlow return(string){
+    string  public key;
+
+    struct flowtable {
+
+        string public switch;
+        string public value;
+    }
+
+    function hello(string _greeting) public {
+        greeting = _greeting;
+    }
+
+    function say() constant public returns (string) {
+        return greeting;
+    }
+}
